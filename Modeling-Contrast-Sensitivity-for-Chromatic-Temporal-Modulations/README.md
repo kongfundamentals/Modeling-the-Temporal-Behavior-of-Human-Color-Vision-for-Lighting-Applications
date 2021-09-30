@@ -5,6 +5,7 @@
 * DOI: https://doi.org/10.2352/ISSN.2169-2629.2018.26.324
 * Publisher: Society for Imaging Science and Technology
 * Publication date: November 12, 2018
+* Repository update: September 30, 2021
 
 # Data description
 
@@ -62,3 +63,8 @@ Here are descriptions  of the columns and brief explanations:
 * 'S2_Corrected'          : short-wavelength-sensitive cone response values for color 2 (10-degree)
 
 *** From the descriptions we can see that not all columns of data are useful. For computations, please only use the 'Corrected' values.***
+
+
+# Update summary:
+* Jul. 19, 2021: uploaded the processed data files (including the individual luminance corrections), and additional example files to fit the TCSFs
+* Sep. 30, 2021: uploaded the SPDs of the primaries (full red, full blue and full green) of the light source, so the cone responses can be computed using other cone spectral sensitivity functions
